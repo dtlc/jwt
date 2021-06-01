@@ -1,0 +1,16 @@
+{
+  "name": "@jciedu/jwt",
+  "version": "1.0.0",
+  "description": "JSON Web Token",
+  "main": "index.js",
+  "repository": "https://github.com/h5-mod/jwt.git",
+  "author": "LiChao7457 <lichao7457@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h5-mod/jwt/issues"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "js-base64": "^3.6.1"
+  }
+}
