@@ -3,13 +3,13 @@
 ## npm
 
 ```shell script
-npm install -S @jciedu/jwt
+npm install -S @lc7457/jwt
 ```
 
 ## yarn
 
 ```shell script
-yarn add @jciedu/jwt
+yarn add @lc7457/jwt
 ```
 
 # 使用
