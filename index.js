@@ -1,4 +1,4 @@
-import {Base64} from "js-base64";
+import {Base64} from "js-base64/base64.js";
 import hs256 from 'crypto-js/hmac-sha256'
 import sha1 from 'crypto-js/sha1'
 

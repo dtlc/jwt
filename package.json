@@ -1,10 +1,10 @@
 {
-  "name": "@jciedu/jwt",
+  "name": "@lc7457/jwt",
   "version": "1.0.0",
   "description": "JSON Web Token",
   "main": "index.js",
   "repository": "https://github.com/h5-mod/jwt.git",
-  "author": "LiChao7457 <lichao7457@gmail.com>",
+  "author": "lc7457",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/h5-mod/jwt/issues"
