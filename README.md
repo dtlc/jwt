@@ -15,13 +15,13 @@ yarn add @lc7457/jwt
 # 使用
 
 ```js
-import {signature, has_signed, verify_signed, parse, encode, decode, assemble, disassemble} from '@jciedu/jwt'
+import {signature, has_signed, verify_signed, parse, encode, decode, assemble, disassemble} from '@lc7457/jwt'
 // 签名
-signature(header, payload, salt, alg = '')
+signature(header, payload, salt, [alg = ''])
 // 是否签名
 has_signed(token)
 // 验证签名
-verify_signed(token, salt, alg = '')
+verify_signed(token, salt, [alg = ''])
 // 解析token数据
 parse(token)
 // 编码
