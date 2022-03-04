@@ -1,21 +1,21 @@
 # 安装
 
-## npm
+#### npm
 
 ```shell script
-npm install -S @lc7457/jwt
+npm install -S @dtlc/jwt
 ```
 
-## yarn
+#### yarn
 
 ```shell script
-yarn add @lc7457/jwt
+yarn add @dtlc/jwt
 ```
 
-# 使用
+# 工具
 
 ```js
-import {signature, has_signed, verify_signed, parse, encode, decode, assemble, disassemble} from '@lc7457/jwt'
+import {signature, has_signed, verify_signed, parse, encode, decode, assemble, disassemble} from '@dtlc/jwt/utils'
 // 签名
 signature(header, payload, salt, [alg = ''])
 // 是否签名
